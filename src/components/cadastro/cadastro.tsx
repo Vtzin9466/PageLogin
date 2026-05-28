@@ -13,10 +13,15 @@ export default function Cadastro() {
                     </section>
                     <section className={Style.informacao}>
                         <h1>Nome: <input type="text" className={Style.input} /></h1>
-                        <h1>Sobrenome: <input type="text" className={Style.input}/></h1>
-                        <h1>Idade: <input type="number" className={Style.input}/></h1>
-                        <h1>Email: <input type="text" className={Style.input}/></h1>
-                        <h1>Senha: <input type="text" className={Style.input}/></h1>
+                        <h1>Sobrenome: <input type="text" className={Style.input} /></h1>
+                        <h1>Idade: <input type="number" className={Style.input} /></h1>
+                        <h1>Email: <input type="text" className={Style.input} /></h1>
+                        <h1>Senha: <input type="text" className={Style.input} /></h1>
+                    </section>
+                    <section className={Style.btn}>
+                        <Link href="Login">
+                            Criar Conta
+                        </Link>
                     </section>
                 </header>
             </main>

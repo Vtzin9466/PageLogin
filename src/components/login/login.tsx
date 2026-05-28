@@ -8,12 +8,12 @@ export default function Login() {
         <>
             <section> <Gradient /></section>
             <main className={Style.container}>
-                <header className={Style.header}>
+                <header>
                     <section className={Style.inicio}>
                         <h1>Seja Bem-Vindo(a)!</h1>
                     </section>
                     <div className={Style.formulario}>
-                        <h1>Email <input type="text" className={Style.input}/></h1>
+                        <h1>Email <input type="text" className={Style.input} /></h1>
                         <h1>Senha <input type="text" className={Style.input} /></h1>
                         <Link href="cadastro" className={Style.link}>
                             Criar novo Usuario

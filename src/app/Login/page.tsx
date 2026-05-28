@@ -1,6 +1,6 @@
 import Login from "@/components/login/login"
 
-export default function Tela() {
+export default function LoginPage() {
     return(
         <Login />
     )
