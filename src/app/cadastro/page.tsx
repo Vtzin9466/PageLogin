@@ -1,7 +1,9 @@
-export default function Cadastro() {
+import Cadastro from "@/components/cadastro/cadastro";
+
+export default function CadastroPage() {
     return(
         <>
-        <h1>Inicio</h1>
+        <Cadastro />
         </>
     )
 }
